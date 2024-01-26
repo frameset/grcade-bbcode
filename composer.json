@@ -1,0 +1,45 @@
+{
+    "name": "username/flarum-ext-name",
+    "description": "A lovely description.",
+    "type": "flarum-extension",
+    "keywords": ["discussion", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "homepage": "https://www.wilcosky.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
+        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\ExtensionName\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Title",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}

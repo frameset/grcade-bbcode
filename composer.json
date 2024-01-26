@@ -1,26 +1,31 @@
 {
-    "name": "username/flarum-ext-name",
-    "description": "A lovely description.",
+    "name": "winckle/grcade-bbcode",
+    "description": "BBcodes for the GRcade forum.",
     "type": "flarum-extension",
-    "keywords": ["discussion", "template"],
+    "keywords": ["discussion"],
     "license": "MIT",
     "authors": [
         {
             "name": "Billy Wilcosky",
             "homepage": "https://www.wilcosky.com",
             "role": "Creator"
+        },
+        {
+            "name": "Mark Winckle",
+            "homepage": "https://grcade.co.uk",
+            "role": "Modifier"
         }
     ],
     "support": {
-        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
-        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
-        "forum": "https://discuss.flarum.org"
+        "issues": "https://github.com/frameset/grcade-bbcode/issues",
+        "source": "https://github.com/frameset/grcade-bbcode",
+        "forum": "https://grcade.co.uk"
     },
-    "homepage": "https://www.wilcosky.com",
+    "homepage": "https://grcade.co.uk",
     "funding": [
         {
             "type": "website",
-            "url": "https://www.wilcosky.com"
+            "url": "https://grcade.co.uk"
         }
     ],
     "require": {
